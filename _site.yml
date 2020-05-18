@@ -10,7 +10,5 @@ navbar:
       href: cv.html
     - text: "Resources"
       href: resources.html
-  right:
-    - text: "Twitter"
-      href: https://twitter.com/ruipei_penn
+  
       
