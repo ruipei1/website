@@ -22,6 +22,14 @@ classoption: twocolumn
 <div class="column-left">
 ![](files/profile.jpg){width=230px}
 
+__Connect with me__
+<br>
+[![](files/twitter.png){width=40px}](https://twitter.com/ruipei_penn)
+[![](files/github.png){width=40px}](https://github.com/ruipei1)
+
+__Other links__<br>
+[Communication Neuroscience Lab](https://cn.asc.upenn.edu)<br>
+[Annenberg School for Communication](https://asc.upenn.edu)
 </div>
 
 
