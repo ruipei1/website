@@ -1,9 +1,37 @@
 ---
-title: "My Website"
+title: " "
+classoption: twocolumn
 ---
 
-Hello, Website!
+<style>
+.column-left{
+  float: left;
+  width: 30%;
+  text-align: left;
+}
+.column-right{
+  display: inline-block;
+  width: 70%;
+  text-align: left;
+}
+</style>
 
-For more information about simple R Markdown websites, please read the documentation at https://bookdown.org/yihui/rmarkdown/rmarkdown-site.html.
+<br>
+<br>
+<br>
+<div class="column-left">
+![](files/profile.jpg){width=230px}
 
-Please also note that simple R Markdown sites are _not_ based on **blogdown**. They are probably good for websites with only a few Rmd documents. For larger-scale and more sophisticated websites (such as blogs), you may want to use **blogdown** instead: https://github.com/rstudio/blogdown.
+</div>
+
+
+<div class="column-right">
+I am a Ph.D candidate at the Annenberg School for Communication at University of Pennsylvania. I completed a B.Sc of Cognitive Neuroscience at Brown University. 
+<br>
+
+I'm interested in combining developmental neuroscience and communication research to promote healthy behavior in adolescents and young adults. 
+  
+</div>
+
+
+
