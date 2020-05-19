@@ -1,5 +1,27 @@
 ---
-title: "About This Website"
+title: ""
+output:
+  html_document:
+    code_folding: hide
+    df_print: paged
+    toc: yes
+    toc_float:
+      collapsed: yes
+      smooth_scroll: yes
 ---
+<br>
+<br>
 
-More about this website.
+## Tutorials
+
+### How I build this site. 
+
+I built this site using Rmarkdown. There are many awesome tools to help build an awesome personal website in [Github](https://github.com) (Such as R's [blogdown](https://bookdown.org/yihui/blogdown/)). I was specifically looking for tools to build a personal website with the following considerations:
+
+1. Simple: All I needed was to display some information on a static website. I was not planning on writing blogs.
+
+2. Automated: such as being able to pull information from my google scholar page.
+
+3. Easy to use.
+
+I ended up building this site using Rstudio, inspired by [this tutorial](https://github.com/privefl/rmarkdown-website-template). 
