@@ -14,7 +14,7 @@ output:
 
 ## Tutorials
 
-### How I build this site. 
+### 1. How I build this site. 
 
 I built this site using Rmarkdown. There are many awesome tools to help build an awesome personal website in [Github](https://github.com) (Such as R's [blogdown](https://bookdown.org/yihui/blogdown/)). I was specifically looking for tools to build a personal website with the following considerations:
 
