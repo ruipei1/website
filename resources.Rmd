@@ -12,11 +12,24 @@ output:
 <br>
 <br>
 
+
+## Stats
+
+### 1. [Seeing theory](https://seeing-theory.brown.edu/index.html)
+
+![](files/seeingtheory.jpg)
+
+Introductory course on probability and statistics, offers free PDF download. 概率和统计学入门教程，有网页图形版和免费的 PDF 电子书下载。
+
+## Mac OS tools
+
+
+
 ## Tutorials
 
 ### 1. How I build this site. 
 
-I built this site using Rmarkdown. There are many awesome tools to help build an awesome personal website in [Github](https://github.com) (Such as R's [blogdown](https://bookdown.org/yihui/blogdown/)). I was specifically looking for tools to build a personal website with the following considerations:
+I built this site using Rmarkdown. I was specifically looking for tools to build a personal website with the following considerations:
 
 1. Simple: All I needed was to display some information on a static website. I was not planning on writing blogs.
 
