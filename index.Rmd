@@ -20,16 +20,16 @@ classoption: twocolumn
 <br>
 <br>
 <div class="column-left">
-![](files/profile.jpg){width=230px}
+![](files/images/profile.jpg){width=230px}
 
 __Connect with me__
 <br>
-[![](files/twitter.png){width=40px}](https://twitter.com/ruipei_penn)
-[![](files/github.png){width=40px}](https://github.com/ruipei1)
+[![](files/images/twitter.png){width=40px}](https://twitter.com/ruipei_penn)
+[![](files/images/github.png){width=40px}](https://github.com/ruipei1)
 
-__Other links__<br>
-[Communication Neuroscience Lab](https://cn.asc.upenn.edu)<br>
-[Annenberg School for Communication](https://asc.upenn.edu)
+
+__What am I up to?__<br>
+I am currently super excited to virtually attend ICA20! You can watch my talk on "Neural processes associated with habitual and emotional Facebook use" [here](https://www.youtube.com/watch?v=Xup4nB9zZT0&t=14s).
 </div>
 
 
@@ -38,7 +38,15 @@ I am a Ph.D candidate at the Annenberg School for Communication at University of
 <br>
 
 I'm interested in combining developmental neuroscience and communication research to promote healthy behavior in adolescents and young adults. 
-  
+<br>
+<br>
+<br>
+<br>
+__Other links__<br>
+[Communication Neuroscience Lab](https://cn.asc.upenn.edu)<br>
+[Annenberg School for Communication](https://asc.upenn.edu)
+
+
 </div>
 
 

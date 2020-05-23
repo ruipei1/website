@@ -2,7 +2,6 @@
 title: ""
 output:
   html_document:
-    code_folding: hide
     df_print: paged
     toc: yes
     toc_float:
@@ -11,23 +10,40 @@ output:
 ---
 <br>
 <br>
+<br>
+<br>
 
 
-## Stats
+### Stats
 
-### 1. [Seeing theory](https://seeing-theory.brown.edu/index.html)
-
-![](files/seeingtheory.jpg)
+#### 1. [Seeing theory](https://seeing-theory.brown.edu/index.html)
+<br>
+![](files/images/seeingtheory.jpg){width=350px}
 
 Introductory course on probability and statistics, offers free PDF download. 概率和统计学入门教程，有网页图形版和免费的 PDF 电子书下载。
 
-## Mac OS tools
+<br>
+<br>
+<br>
+<br>
+
+### Tools
+
+#### 1. [Friendly Universe](https://github.com/ruipei1/friendlyUniverse)
+<br>
+![](files/images/fun.png){width=350px}
+
+Friendly Universe is a Qualtrics survey template to anonymously measure the structure of individuals' social networks. Friendly Universe measures the nodes and edges of the network, as well as the group (i.e. family, friends), and the emotional closeness of each node. This tool is easy to use and can be custromized through Qualtrics and Javascript.
 
 
+<br>
+<br>
+<br>
+<br>
 
-## Tutorials
+### Tutorials
 
-### 1. How I build this site. 
+#### 1. How I build this site. 
 
 I built this site using Rmarkdown. I was specifically looking for tools to build a personal website with the following considerations:
 
@@ -38,3 +54,6 @@ I built this site using Rmarkdown. I was specifically looking for tools to build
 3. Easy to use.
 
 I ended up building this site using Rstudio, inspired by [this tutorial](https://github.com/privefl/rmarkdown-website-template). 
+
+
+

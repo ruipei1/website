@@ -7,42 +7,86 @@ output:
 ```{r echo= FALSE, message=FALSE}
 rm(list = ls())
 if (!require("pacman")) install.packages("pacman",repos = "http://cran.us.r-project.org")
-pacman::p_load(ggplot2, tidyverse, dplyr, scholar, knitr, kableExtra)
+pacman::p_load(ggplot2, tidyverse, dplyr, scholar, knitr, kableExtra,readxl)
+
+process_paper_df = function(pub_df){
+  # reorder the pubs dataframe
+  reordered_pub = pub_df[which(startsWith(pub_df$author, "R Pei")),] %>% 
+  rbind(pub_df[which(!startsWith(pub_df$author, "R Pei")),])
+
+  reordered_pub$pubstring = NA
+  for (i in c(1:nrow(reordered_pub))){
+    pubstring = paste0(reordered_pub$author[i], " (",
+                     reordered_pub$year[i],
+                     "). ", reordered_pub$title[i], ". *",
+                     reordered_pub$journal[i], "*     ",
+                     "[link to paper](files/papers/", reordered_pub$pubid[i], ".pdf)")
+  reordered_pub$pubstring[i] = pubstring
+  }
+
+  reordered_pub = reordered_pub %>%
+  mutate(id = c(1:nrow(reordered_pub)),
+         link = paste0("[link to paper](files/papers/", pubid, ".pdf)"))   # add links to publications
+  return(reordered_pub)
+}
 ```
 <br>
 <br>
 <br>
 
-```{r echo = FALSE}
+<center> <h3>Papers</h3> </center>
+
+
+```{r echo = FALSE,message=FALSE}
 pubs = get_publications("UGCZ5GAAAAAJ") %>%
   mutate_all(as.character) # get pubs from google scholar
 
-# reorder the pubs dataframe
-reordered_pubs = pubs[which(startsWith(pubs$author, "R Pei")),] %>% 
-  rbind(pubs[which(!startsWith(pubs$author, "R Pei")),])
-
-reordered_pubs$pubstring = NA
-for (i in c(1:nrow(reordered_pubs))){
-  pubstring = paste0(reordered_pubs$author[i], " (",
-                     reordered_pubs$year[i],
-                     "). ", reordered_pubs$title[i], ". *",
-                     reordered_pubs$journal[i], "*")
-  reordered_pubs$pubstring[i] = pubstring
-}
-
-reordered_pubs = reordered_pubs %>%
-  mutate(id = c(1:nrow(reordered_pubs)),
-         link = paste0("[link to article](files/", pubid, ".pdf)")) # add links to publications
+pubs_19 = pubs %>% filter(year == "2019")
+pubs_20 = pubs %>% filter(year == "2020")
 
 
+reordered_19 = process_paper_df(pubs_19)
+reordered_20 = process_paper_df(pubs_20)
 
-
-kable(reordered_pubs %>%
-        select(id, pubstring, link), row.names = FALSE, col.names = NULL,
-      table.attr = "style='width:80%;'") %>%
+kable(reordered_20 %>%
+        select(id, pubstring), row.names = FALSE, col.names = NULL,
+      table.attr = "style='width:80%;'", 
+      caption = "2020") %>%
   kable_styling()
 
+kable(reordered_19 %>%
+        select(id, pubstring), row.names = FALSE, col.names = NULL,
+      table.attr = "style='width:80%;'", 
+      caption = "2019") %>%
+  kable_styling()
+```
 
-# network = get_coauthors("UGCZ5GAAAAAJ")
-# plot_coauthors(network)
+<center> <h3>Conferences</h3> </center>
+
+
+```{r include = TRUE,echo = FALSE, message=FALSE, warning = FALSE}
+talks <- read_excel("files/conferences.xlsx")
+
+talks$id = c(1:nrow(talks))
+
+talks$pubstring = NA
+for (i in c(1:nrow(talks))){
+  pubstring = paste0(talks$talk[i], " ",
+                     talks$presenters[i],
+                     " (", talks$month[i], ", ",
+                     talks$year[i], ") *",
+                     talks$conference[i], "* ",
+                     talks$location[i])
+  if (!is.na(talks$video_link[i])){
+    pubstring = paste0(pubstring, "     [link to video](", 
+                       talks$video_link[i], 
+                       ")")
+  }
+  talks$pubstring[i] = pubstring
+}
+
+kable(talks %>%
+        select(id, pubstring), row.names = FALSE, col.names = NULL,
+      table.attr = "style='width:80%;'") %>%
+  kable_styling()
 ```
