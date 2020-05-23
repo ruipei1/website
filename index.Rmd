@@ -24,6 +24,7 @@ classoption: twocolumn
 
 __Connect with me__
 <br>
+rui.pei at upenn.edu <br>
 [![](files/images/twitter.png){width=40px}](https://twitter.com/ruipei_penn)
 [![](files/images/github.png){width=40px}](https://github.com/ruipei1)
 
