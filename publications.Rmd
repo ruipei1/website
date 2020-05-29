@@ -61,6 +61,9 @@ kable(reordered_19 %>%
   kable_styling()
 ```
 
+
+
+
 <center> <h3>Conferences</h3> </center>
 
 
@@ -78,8 +81,8 @@ for (i in c(1:nrow(talks))){
                      talks$conference[i], "* ",
                      talks$location[i])
   if (!is.na(talks$video_link[i])){
-    pubstring = paste0(pubstring, "     [link to video](", 
-                       talks$video_link[i], 
+    pubstring = paste0(pubstring, "     [link to video](",
+                       talks$video_link[i],
                        ")")
   }
   talks$pubstring[i] = pubstring
@@ -90,3 +93,8 @@ kable(talks %>%
       table.attr = "style='width:80%;'") %>%
   kable_styling()
 ```
+
+<center> <h3>Open Science Data Reports</h3> </center>
+
+* [Framing effects on the effectiveness and virality of health messages related to COVID-19](https://cnlab.github.io/covid19-message-framing/) (With the Communication Neuroscience Lab at Upenn)
+

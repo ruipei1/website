@@ -6,8 +6,6 @@ navbar:
       href: index.html
     - text: "Papers & conferences"
       href: publications.html
-    - text: "CV"
-      href: cv.html
     - text: "Resources"
       href: resources.html
   

@@ -28,9 +28,10 @@ rui.pei at upenn.edu <br>
 [![](files/images/twitter.png){width=40px}](https://twitter.com/ruipei_penn)
 [![](files/images/github.png){width=40px}](https://github.com/ruipei1)
 
-
+<br>
+<br>
 __What am I up to?__<br>
-I am currently super excited to virtually attend ICA20! You can watch my talk on "Neural processes associated with habitual and emotional Facebook use" [here](https://www.youtube.com/watch?v=Xup4nB9zZT0&t=14s).
+I'm super excited to virtually attend ICA20! You can watch my talk on "Neural processes associated with habitual and emotional Facebook use" [here](https://www.youtube.com/watch?v=Xup4nB9zZT0&t=14s).
 </div>
 
 
@@ -41,6 +42,10 @@ I am a Ph.D candidate at the Annenberg School for Communication at University of
 I'm interested in combining developmental neuroscience and communication research to promote healthy behavior in adolescents and young adults. 
 <br>
 <br>
+<br>
+<br>
+You can download my CV [here](files/cv.pdf) (last update `r format(Sys.time(), '%B %Y')`).
+
 <br>
 <br>
 __Other links__<br>
