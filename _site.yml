@@ -4,6 +4,8 @@ navbar:
   left:
     - text: "Home"
       href: index.html
+    - text: "Research"
+      href: research.html
     - text: "Papers & conferences"
       href: publications.html
     - text: "Resources"
