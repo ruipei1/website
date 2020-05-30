@@ -20,7 +20,7 @@ output:
 <br>
 ![](files/images/seeingtheory.jpg){width=350px}
 
-Introductory course on probability and statistics, offers free PDF download. 概率和统计学入门教程，有网页图形版和免费的 PDF 电子书下载。
+Introductory course on probability and statistics, offers free PDF download.
 
 <br>
 <br>
