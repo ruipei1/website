@@ -44,7 +44,7 @@ I'm interested in combining developmental neuroscience and communication researc
 <br>
 <br>
 <br>
-You can download my CV [here](files/cv.pdf) (last update `r format(Sys.time(), '%B %Y')`).
+You can download my CV [here](files/cv_vitae.pdf) (last update `r format(Sys.time(), '%B %Y')`).
 
 <br>
 <br>
