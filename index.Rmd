@@ -30,27 +30,31 @@ rui.pei at upenn.edu <br>
 
 <br>
 <br>
-__What am I up to?__<br>
-I'm super excited to virtually attend ICA20! You can watch my talk on "Neural processes associated with habitual and emotional Facebook use" [here](https://www.youtube.com/watch?v=Xup4nB9zZT0&t=14s).
+
+__Related links__<br>
+[Communication Neuroscience Lab](https://cn.asc.upenn.edu)<br>
+[Annenberg School for Communication](https://asc.upenn.edu)
+
+
 </div>
 
 
 <div class="column-right">
-I am a Ph.D candidate at the Annenberg School for Communication at University of Pennsylvania. I completed a B.Sc of Cognitive Neuroscience at Brown University. 
+My name is Rui (pronounced as "Ray") Pei, and I am a Ph.D candidate at the [Annenberg School for Communication](https://asc.upenn.edu) at University of Pennsylvania. My research centers around developmental neuroscience and health behavior. I am broadly interested in combining developmental neuroscience and communication research to promote healthy behavior in adolescents and young adults. 
 <br>
+<br>
+I completed a B.Sc of Cognitive Neuroscience at Brown University. I completed an internship at the [Social Computing Group at Microsoft Research Asia](https://www.microsoft.com/en-us/research/group/social-computing-beijing/) between January and August, 2018. 
+<br>
+<br>
+More information about me can be found on my [Curriculum Vitae](files/cv_vitae.pdf) (last update `r format(Sys.time(), '%B %Y')`). 
 
-I'm interested in combining developmental neuroscience and communication research to promote healthy behavior in adolescents and young adults. 
-<br>
-<br>
-<br>
-<br>
-You can download my CV [here](files/cv_vitae.pdf) (last update `r format(Sys.time(), '%B %Y')`).
+I am interested in how peers and social network influence health decision making in adolescents. My recent studies invetigate how peer influence and social norms may be moderated by cultural background, and how specific social network stucutures (such as clustering structure) may play a role in adolescent risk taking behavior. 
+
 
 <br>
 <br>
-__Other links__<br>
-[Communication Neuroscience Lab](https://cn.asc.upenn.edu)<br>
-[Annenberg School for Communication](https://asc.upenn.edu)
+<br>
+<br>
 
 
 </div>
