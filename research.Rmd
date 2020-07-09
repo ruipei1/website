@@ -1,7 +1,32 @@
 ---
 title: ""
 ---
+<style type="text/css">
+.main-container {
+  max-width: 700px;
+  margin-left: 80px;
+  margin-right: auto;
+}
+</style>
+
+
 <br>
 <br>
 
-More to come.
+<h4>Social influence and decision making</h4>
+<br>
+
+
+* How doneural responses to risks and type of peer influence (risky vs. safe) interact to influence adolescent risk taking?
+
+* How does cultural background modulate developmental trajectory of susceptibility to peer influence?
+
+* How does cultural collectivism influence people's COVID-related cognitions, as well as the growth rate of COVID-19?
+
+<br>
+<br>
+
+<h4>Combining neuroscience and communication for adolescent health promotion</h4>
+<br>
+
+* What neural processes may contribute to adolescents' interpersonal sharing of anti-tobacco messages? [paper]("files/papers/u5HHmVD_uO8C.pdf")

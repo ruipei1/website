@@ -97,7 +97,7 @@ kable(talks %>%
 <center> <h3>Open Science Data Reports</h3> </center>
 
 ```{r include = TRUE,echo = FALSE, message=FALSE, warning = FALSE}
-reports = data.frame(name = "[Framing effects on the effectiveness and virality of health messages related to COVID-19](https://cnlab.github.io/covid19-message-framing/) (With the Communication Neuroscience Lab at Upenn)")
+reports = data.frame(name = "[Framing effects on the effectiveness and virality of health messages related to COVID-19](files/papers/norms_study1.html) (With the Communication Neuroscience Lab at Upenn)")
 
 kable(reports, row.names = FALSE, col.names = NULL,
       table.attr = "style='width:80%;'") %>%
