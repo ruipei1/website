@@ -11,7 +11,7 @@ body{
 .column-left{
   float: left;
   width: 30%;
-  text-align: left;
+  text-align: center;
 }
 .column-right{
   display: inline-block;
@@ -24,16 +24,17 @@ body{
 <br>
 <br>
 <div class="column-left">
-![](files/images/profile_2.png){width=230px}
+![](files/images/profile_2.png){width=140px}
 
 __Connect with me__
 <br>
 rui.pei at upenn.edu <br>
-[![](files/images/twitter.png){width=40px}](https://twitter.com/ruipei_penn)
-[![](files/images/github.png){width=40px}](https://github.com/ruipei1)
+[![](files/images/twitter.png){width=30px}](https://twitter.com/ruipei_penn)
+[![](files/images/github.png){width=30px}](https://github.com/ruipei1)
+[![](files/images/googlescholar.png){width=30px}](https://scholar.google.com/citations?user=UGCZ5GAAAAAJ&hl=en&oi=ao)
 
 <br>
-<br>
+
 
 __Related links__<br>
 [Communication Neuroscience Lab](https://cn.asc.upenn.edu)<br>
