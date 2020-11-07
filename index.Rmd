@@ -3,7 +3,11 @@ title: " "
 classoption: twocolumn
 ---
 
+
 <style>
+body{
+  font-size: 12pt;
+}
 .column-left{
   float: left;
   width: 30%;

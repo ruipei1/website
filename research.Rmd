@@ -1,34 +1,39 @@
 ---
 title: ""
+output:
+  html_document:
+    df_print: paged
+    toc: no
+    toc_float:
+      collapsed: no
+      smooth_scroll: no
 ---
+
 <style type="text/css">
-.main-container {
-  max-width: 700px;
-  margin-left: 450px;
-  margin-right: auto;
-  font-size: 14px;
+  body{
+  font-size: 12pt;
 }
 </style>
 
 
 <br>
 <br>
-
-<h4>Social influence and decision making</h4>
 <br>
-
-
-* How doneural responses to risks and type of peer influence (risky vs. safe) interact to influence adolescent risk taking?
-
-* How does cultural background modulate developmental trajectory of susceptibility to peer influence?
-
-* How does cultural collectivism influence people's COVID-related cognitions, as well as the growth rate of COVID-19?
+<br>
+I am broadly interested in studying the role of social influence in adolescent decision making, with a focus on health behaviors and positive social risk taking. 
 
 <br>
 <br>
 
-<h4>Promoting social risk taking in adolescents</h4>
+### 1. Neural mechanism of social influence 
+<br>
 
+This line of study investigates the neuropsychological processes supporting conformity and resistance to risky social influence. In one study (Pei et al., 2020), we found that adolescents’ neural responses to risk taking may modulate their conformity to different types of peer influence. Findings from this study suggested that the VS may act in concert with other cortical regions to protect against harmful peer influence. 
+
+<br>
+<br>
+
+### 2. Promoting social risk taking in adolescents
 <br>
 
 Adolescents across the world demonstrate increased risk taking behavior compared to adults. Although adolescent risk taking may lead to negative consequences such as motor vehicle accidents, tobacco use, and unsafe sexual behavior , recent studies highlight ways that risk taking during adolescence can be adaptive. Specifically, these studies indicate that increased risk taking behavior during adolescence is a normative developmental process that brings crucial opportunities for health promotion, academic achievements, social engagement, and life success (Crone & Dahl, 2012). As such, an important goal for parents, educators, and health practitioners is to effectively promote positive risk taking behaviors in adolescents.
