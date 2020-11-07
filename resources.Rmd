@@ -13,6 +13,7 @@ output:
 <br>
 <br>
 
+Here is a collection of resources, hopw you find them useful!
 
 ### Stats
 
@@ -36,12 +37,19 @@ Introductory course on probability and statistics, offers free PDF download.
 Friendly Universe is a Qualtrics survey template to anonymously measure the structure of individuals' social networks. Friendly Universe measures the nodes and edges of the network, as well as the group (i.e. family, friends), and the emotional closeness of each node. This tool is easy to use and can be custromized through Qualtrics and Javascript.
 
 
+#### 2. [Profile Pic Maker](https://pfpmaker.com/)
+
+![](files/images/profilepic.jpg){width=250px}
+
+
+An online tool that uploads portrait photos, automatically extracts the avatar, and generates a profile picture.
+
 <br>
 <br>
 <br>
 <br>
 
-### Tutorials
+### Courses/Tutorials
 
 #### 1. How I build this site. 
 
@@ -55,5 +63,10 @@ I built this site using Rmarkdown. I was specifically looking for tools to build
 
 I ended up building this site using Rstudio, inspired by [this tutorial](https://github.com/privefl/rmarkdown-website-template). 
 
+
+#### 2. [Neuromatch conference talks](https://www.youtube.com/channel/UCcBKrxkfNv04R9PXLovjf5w)
+
+
+About 100 talks from neuromatch conference! Everything is tagged and linked and closed captioned via machine learning.
 
 
