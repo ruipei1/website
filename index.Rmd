@@ -20,7 +20,7 @@ classoption: twocolumn
 <br>
 <br>
 <div class="column-left">
-![](files/images/profile.jpg){width=230px}
+![](files/images/profile_2.png){width=230px}
 
 __Connect with me__
 <br>
