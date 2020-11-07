@@ -4,7 +4,7 @@ output:
   html_document
 ---
 
-```{r echo= FALSE, message=FALSE}
+```{r echo= FALSE, message=FALSE, warning = FALSE}
 rm(list = ls())
 if (!require("pacman")) install.packages("pacman",repos = "http://cran.us.r-project.org")
 pacman::p_load(ggplot2, tidyverse, dplyr, scholar, knitr, kableExtra,readxl)
@@ -37,7 +37,7 @@ process_paper_df = function(pub_df){
 <center> <h3>Papers</h3> </center>
 
 
-```{r echo = FALSE,message=FALSE}
+```{r echo = FALSE,message=FALSE, warning = FALSE}
 pubs = get_publications("UGCZ5GAAAAAJ") %>%
   mutate_all(as.character) # get pubs from google scholar
 
