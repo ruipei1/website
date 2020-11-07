@@ -4,8 +4,9 @@ title: ""
 <style type="text/css">
 .main-container {
   max-width: 700px;
-  margin-left: 80px;
+  margin-left: 450px;
   margin-right: auto;
+  font-size: 14px;
 }
 </style>
 
