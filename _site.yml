@@ -1,10 +1,7 @@
 name: "my-website"
 navbar:
   title: "Rui Pei "
-  left:
-    - text: "         "
-    - text: "         "
-    - text: "         "
+  right:
     - text: "Home"
       href: index.html
     - text: "Research"
