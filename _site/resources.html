@@ -27,6 +27,17 @@
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 <link href="site_libs/pagedtable-1.1/css/pagedtable.css" rel="stylesheet" />
 <script src="site_libs/pagedtable-1.1/js/pagedtable.js"></script>
+<link href="site_libs/anchor-sections-1.0/anchor-sections.css" rel="stylesheet" />
+<script src="site_libs/anchor-sections-1.0/anchor-sections.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
@@ -396,9 +407,10 @@ div.tocify {
 <div id="tools" class="section level3">
 <h3>Tools</h3>
 <div id="friendly-universe" class="section level4">
-<h4>1. <a href="https://github.com/ruipei1/friendlyUniverse">Friendly Universe</a></h4>
+<h4>1. Friendly Universe</h4>
 <p><br> <img src="files/images/fun.png" width="350" /></p>
 <p>Friendly Universe is a Qualtrics survey template to anonymously measure the structure of individuals’ social networks. Friendly Universe measures the nodes and edges of the network, as well as the group (i.e. family, friends), and the emotional closeness of each node. This tool is easy to use and can be custromized through Qualtrics and Javascript.</p>
+<p><a href="http://www.ruipei.net/fun_web/0_intro/intro.php">Web demo</a> <a href="https://github.com/ruipei1/friendlyUniverse">Github repo</a></p>
 <p><br> <br> #### 2. <a href="https://pfpmaker.com/">Profile Pic Maker</a></p>
 <p><img src="files/images/profilepic.jpg" width="250" /></p>
 <p>An online tool that uploads portrait photos, automatically extracts the avatar, and generates a profile picture.</p>
@@ -435,7 +447,7 @@ div.tocify {
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();
@@ -474,7 +486,7 @@ $(document).ready(function ()  {
       theme: "bootstrap3",
       context: '.toc-content',
       hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
       },
       ignoreSelector: ".toc-ignore",
       scrollTo: 0

@@ -36,11 +36,14 @@ Introductory course on probability and statistics, offers free PDF download.
 
 ### Tools
 
-#### 1. [Friendly Universe](https://github.com/ruipei1/friendlyUniverse)
+#### 1. Friendly Universe
 <br>
 ![](files/images/fun.png){width=350px}
 
 Friendly Universe is a Qualtrics survey template to anonymously measure the structure of individuals' social networks. Friendly Universe measures the nodes and edges of the network, as well as the group (i.e. family, friends), and the emotional closeness of each node. This tool is easy to use and can be custromized through Qualtrics and Javascript.
+
+[Web demo](http://www.ruipei.net/fun_web/0_intro/intro.php)
+[Github repo](https://github.com/ruipei1/friendlyUniverse)
 
 <br>
 <br>
