@@ -19,7 +19,7 @@ output:
 <br>
 <br>
 
-Here is a collection of resources, hopw you find them useful!
+Here is a collection of resources that I have found useful. 
 
 ### Stats
 

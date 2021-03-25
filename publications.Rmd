@@ -50,10 +50,17 @@ pubs = get_publications("UGCZ5GAAAAAJ") %>%
 
 pubs_19 = pubs %>% filter(year == "2019")
 pubs_20 = pubs %>% filter(year == "2020")
-
+pubs_21 = pubs %>% filter(year == "2021")
 
 reordered_19 = process_paper_df(pubs_19)
 reordered_20 = process_paper_df(pubs_20)
+#reordered_21 = process_paper_df(pubs_21)
+
+# kable(reordered_21 %>%
+#         select(id, pubstring), row.names = FALSE, col.names = NULL,
+#       table.attr = "style='width:80%;'", 
+#       caption = "2021") %>%
+#   kable_styling()
 
 kable(reordered_20 %>%
         select(id, pubstring), row.names = FALSE, col.names = NULL,
