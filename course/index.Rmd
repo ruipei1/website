@@ -24,7 +24,8 @@ output:
 <br>
 <br>
 
-欢迎来到 Humanity X 2021 的心理学入门课程！ 这里是课程附带的一些有用材料。
+欢迎来到 Humanity X 2021 的心理学入门课程！ 这里是课程附带的一些材料。本网站会随着课程进度不定期更新，请保存地址方便以后查看。
+
 
 <br>
 <br>
@@ -38,54 +39,58 @@ output:
 Humanity X心理学课程将向您展示心理学的主要研究领域，包括心理学的研究方法，情感，发育，人格，社会行为，和心理病理学。我们将结合有趣的实验和故事，重点介绍每个主题中的实证研究和当前趋势。 除了介绍心理学的理论，本课程还会通过一系列的lab环节提供心理学实验和研究的机会。学员们将有机会自己设计实验，问卷，收集和分析数据。通过这些实践环节，学员们将学习和掌握科学的思维方式。不管您未来的职业方向如何，科学的思维方式都将助您一臂之力。
 
 <br>
-课程时间和地点： 2021年7月15 - 28日， 成都
-<br>
 <br>
 
 ### 2. 课程大纲
 
-[课程大纲](files/syllabus.pdf)
+点击[这里](files/syllabus.pdf)获取详细课程大纲
 
 | Day | Course material                        | Lab                              | Reading                                                                                       |
 |-----|----------------------------------------|----------------------------------|-----------------------------------------------------------------------------------------------|
 | 1   | Welcome and introduction               | Introduction to R                |                                                                                               |
-| 2   | Research methods and critical thinking | Study design                     | [Reproducibility](files/readings/science_reproducibility.pdf)                                 |
-| 3   | Brain & the mind                       | Data description                 | [reading1](files/readings/neuroscience_psychology.pdf); [reading2](files/readings/salmon.pdf) |
-| 4   | Learning                               | Experimental design              |                                                                                               |
-| 5   | Human development                      | Capstone project idea generation |                                                                                               |
-| 6   | Personality                            | Capstone project design          |                                                                                               |
-| 7   | Social behavior                        | Multivariate regression          |                                                                                               |
-| 8   | Persuasion                             | Interactions                     |                                                                                               |
-| 9   | Health psychology                      | Data visualization               |                                                                                               |
-| 10  | Psychological disorders                | Capstone project data analysis   |                                                                                               |
+| 2   | Research methods and critical thinking | Study design                     | [教科书第二章](files/readings/quiz1_reading.pdf); <br> [Quiz 1](files/readings/quiz1.pdf);<br>  [Open Science Collaboration, 2015](files/readings/science_reproducibility.pdf) (如果没有时间，可以只读第一页的摘要)        |
+| 3   | Psychological disorders     <br> **Guest lecture**            | Data description                 |[教科书第十四章](files/readings/ch14.pdf)<br>[Chwyl et al., 2020](files/readings/3_chwyl.pdf)|
+| 4   | Brain & the mind                       | Experimental design              |   [教科书第三章](files/readings/quiz2_reading.pdf)<br>[Quiz 2](files/readings/quiz2.pdf); <br>(延伸阅读) [Schwartz et al., 2016](files/readings/neuroscience_psychology.pdf)<br> (延伸阅读) [Bennet et al., 2010](files/readings/salmon.pdf);                                                                                           |
+| 5   | Learning      <br> **Guest lecture**               | Capstone project idea generation | [Zaki et al., 2016](files/readings/5_zaki.pdf)<br>[Brennan & Proekt, 2019](files/readings/5_brennan.pdf)<br> (延伸阅读) [Neftci & Averbeck, 2019](files/readings/5_neftci.pdf)                                                                                              |
+| 6   | Human development                            | Capstone project design          | [Pei et al., 2019](files/readings/6_pei.pdf)<br> [Reiter et al., 2021](files/readings/6_reiter.pdf) <br> [Chein et al., 2011](files/readings/6_chein.pdf)|
+| 7   | Personality                         | Multivariate regression          |  [Rothmann & Coetzer, 2003](files/readings/7_rothmann.pdf)<br>[Wilson & Ross, 2001](files/readings/7_wilson.pdf)<br>  (延伸阅读) [Malouff et al., 2010](files/readings/7_Malouff.pdf)                                                                                           |
+| 8   | Social behavior                             | Interactions                     |  [Cacioppo et al., 2003](files/readings/8_cacioppo.pdf)<br>[Cialdini & Goldstein, 2004](files/readings/8_cialdini.pdf)<br>[Tamir et al., 2015](files/readings/8_tamir.pdf) <br>(延伸阅读) [Zhu et al., 2007](files/readings/8_zhu.pdf)                                                                                      |
+| 9   | Persuasion                      | Data visualization               | [Falk & Sholz, 2018](files/readings/9_falk.pdf)<br> [Berger, 2014](files/readings/9_berger.pdf)                                                                                              |
+| 10  | Health psychology               | Capstone project data analysis   | [Falk et al., 2015](files/readings/10_falk.pdf) <br>   [Fishbein, 2008](files/readings/10_fishbein.pdf) <br>(延伸阅读) [Petty & Cacioppo, 1986](files/readings/10_petty.pdf) <br>(延伸阅读) [Van Bavel et al., 2020](files/readings/10_bavel.pdf)                                                                                       |
 
 <br>
 <br>
 
-### 3. 课程开始前准备作业
+### 3. 课程开始前预习资料
+
+
+点击[这里](files/quizzes/package.pdf)获取完整预习材料包
+
 <br>
-
-这里是一些需要在课程开始（7/15日）之前需要完成的阅读和作业。
-
-#### 3.1 回答课程问卷
+<br>
+#### (1) 回答课程问卷
 [问卷](https://wj.qq.com/s2/8674634/6a3b/)
 <br>
 <br>
 
-#### 3.2 实验设计
-[阅读资料： 心理科学教科书第二章](files/quizzes/quiz1_reading.pdf)
-<br>
-[Quiz 1](files/quizzes/quiz1.pdf)
+#### (2) 下载R 和R Studio
+
+[英文教程](files/quizzes/r.pdf)<br>
+[中文教程](https://zhuanlan.zhihu.com/p/157631204?utm_source=wechat_session&utm_medium=social&s_r=0)
 <br>
 
-#### 3.3 神经科学
-[阅读资料： 心理科学教科书第三章](files/quizzes/quiz2_reading.pdf)
-<br>
-[Quiz 2](files/quizzes/quiz2.pdf)
-<br>
-
-#### 3.4 下载R 和R Studio
-[教程](https://zhuanlan.zhihu.com/p/157631204?utm_source=wechat_session&utm_medium=social&s_r=0)
-<br>
+#### (3) 预习第2-4天课程内容
 
 
+
+### 4. 推荐书籍
+
+Here are some great book relevant for psychology. They are not required for the course.
+
+•	Influence: The Psychology of Persuasion by Robert B. Cialdini.<br>
+•	Thinking, Fast and Slow by Daniel Kahneman.<br>
+•	Predictably Irrational by Dan Ariely.<br>
+•	The Art of Loving by Erich Fromm.<br>
+•	The War for Kindness by Jamil Zaki.<br>
+•	Grit by Angela Duckworth.<br>
+• Crazy like us: The Globalization of the American Psyche by Ethan Watters <br>
