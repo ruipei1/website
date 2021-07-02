@@ -51,7 +51,7 @@ Humanity X心理学课程将向您展示心理学的主要研究领域，包括�
 | 2   | Research methods and critical thinking | Study design                     | [教科书第二章](files/readings/quiz1_reading.pdf); <br> [Quiz 1](files/readings/quiz1.pdf);<br>  [Open Science Collaboration, 2015](files/readings/science_reproducibility.pdf) (如果没有时间，可以只读第一页的摘要)        |
 | 3   | Psychological disorders     <br> **Guest lecture**            | Data description                 |[教科书第十四章](files/readings/ch14.pdf)<br>[Chwyl et al., 2020](files/readings/3_chwyl.pdf)|
 | 4   | Brain & the mind                       | Experimental design              |   [教科书第三章](files/readings/quiz2_reading.pdf)<br>[Quiz 2](files/readings/quiz2.pdf); <br>(延伸阅读) [Schwartz et al., 2016](files/readings/neuroscience_psychology.pdf)<br> (延伸阅读) [Bennet et al., 2010](files/readings/salmon.pdf);                                                                                           |
-| 5   | Learning      <br> **Guest lecture**               | Capstone project idea generation | [Zaki et al., 2016](files/readings/5_zaki.pdf)<br>[Brennan & Proekt, 2019](files/readings/5_brennan.pdf)<br> (延伸阅读) [Neftci & Averbeck, 2019](files/readings/5_neftci.pdf)                                                                                              |
+| 5   | Learning      <br> **Guest lecture**               | Capstone project idea generation | [Zaki et al., 2016](files/readings/5_zaki.pdf)<br>[Vyas et al., 2020](files/readings/5_vyas.pdf)<br> (延伸阅读) [Neftci & Averbeck, 2019](files/readings/5_neftci.pdf)    <br>(延伸阅读) [Brennan & Proekt, 2019](files/readings/5_brennan.pdf)                                                                                          |
 | 6   | Human development                            | Capstone project design          | [Pei et al., 2019](files/readings/6_pei.pdf)<br> [Reiter et al., 2021](files/readings/6_reiter.pdf) <br> [Chein et al., 2011](files/readings/6_chein.pdf)|
 | 7   | Personality                         | Multivariate regression          |  [Rothmann & Coetzer, 2003](files/readings/7_rothmann.pdf)<br>[Wilson & Ross, 2001](files/readings/7_wilson.pdf)<br>  (延伸阅读) [Malouff et al., 2010](files/readings/7_Malouff.pdf)                                                                                           |
 | 8   | Social behavior                             | Interactions                     |  [Cacioppo et al., 2003](files/readings/8_cacioppo.pdf)<br>[Cialdini & Goldstein, 2004](files/readings/8_cialdini.pdf)<br>[Tamir et al., 2015](files/readings/8_tamir.pdf) <br>(延伸阅读) [Zhu et al., 2007](files/readings/8_zhu.pdf)                                                                                      |
@@ -68,6 +68,7 @@ Humanity X心理学课程将向您展示心理学的主要研究领域，包括�
 
 <br>
 <br>
+
 #### (1) 回答课程问卷
 [问卷](https://wj.qq.com/s2/8674634/6a3b/)
 <br>
@@ -81,6 +82,10 @@ Humanity X心理学课程将向您展示心理学的主要研究领域，包括�
 
 #### (3) 预习第2-4天课程内容
 
+
+<br>
+<br>
+<br>
 
 
 ### 4. 推荐书籍
